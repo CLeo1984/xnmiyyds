@@ -1,1 +1,47 @@
-{"id": "xnmiyyds","name": "Cleo 应用订阅",作者：@Cleo1984，"icon": "https://avatars3.githubusercontent.com/u/23498579?s=460&u=1e87605e4abc4e6ecf3edd8b1d730227f54db4d4&v=4","repo"："https://github.com/dompling/Script","应用程序"：[{"id": "xmSports","name": "多账号运动","keys": ["@xmSports.token", "@xmSports.minStep", "@xmSports.maxStep"],"作者": "@dompling","设置"：[{"id": "@xmSports.minStep","name": "最小步数","val": "20000","类型"：“文本”，占位符：“最小步数”，"desc": "必填"}，{"id": "@xmSports.maxStep","name": "最大步数","val": "23000","类型"：“文本”，"占位符": "最大步数","desc": "必填"}]，"图标"：["https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png",https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png]，"scripts": [{"name": "初始账号","script": "https://raw.githubusercontent.com/dompling/Script/master/xmSportsCookieTask.js"}，{"名称"："同步设备","script"："https://raw.githubusercontent.com/dompling/Script/master/xmSports.js"}】}}}
+{
+  "id": "dompling.app.sub",
+  "name": "DomplingYaYa 应用订阅",
+  "author": "@DomplingYaYa",
+  "icon": "https://avatars3.githubusercontent.com/u/23498579?s=460&u=1e87605e4abc4e6ecf3edd8b1d730227f54db4d4&v=4",
+  "repo": "https://github.com/dompling/Script",
+  "apps": [
+    {
+      "id": "xmSports",
+      "name": "多账号运动",
+      "keys": ["@xmSports.token", "@xmSports.minStep", "@xmSports.maxStep"],
+      "author": "@dompling",
+      "settings": [
+        {
+          "id": "@xmSports.minStep",
+          "name": "最小步数",
+          "val": "20000",
+          "type": "text",
+          "placeholder": "最小步数",
+          "desc": "必填"
+        },
+        {
+          "id": "@xmSports.maxStep",
+          "name": "最大步数",
+          "val": "23000",
+          "type": "text",
+          "placeholder": "最大步数",
+          "desc": "必填"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png"
+      ],
+      "scripts": [
+        {
+          "name": "初始账号",
+          "script": "https://raw.githubusercontent.com/dompling/Script/master/xmSportsCookieTask.js"
+        },
+        {
+          "name": "同步设备",
+          "script": "https://raw.githubusercontent.com/dompling/Script/"
+        }
+      ]
+    }
+  ]
+}
